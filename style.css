@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(173, 98, 98);
+}
+
+.container {
+    width: 50%;
+    margin: 200px auto;
+    box-sizing: border-box;
+    background-color: rgb(80, 25, 25); 
+    box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, .5);
+    border-radius: 2px; 
+    display: flex;
+} 
+
+.user-details {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+.user-btn {
+    flex: 1;
+}
+
+.btn {
+    padding: 10px 0;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 80px auto;
+    color: white;
+    background-color: #0000ff;
+    font-family: cursive;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 2px; 
+}
+
+.btn:hover {
+    background-color: #0c0c83;
+    cursor: pointer;
+}
+
+.user-name {
+    color: #0000ff;
+}
+
+p a {
+    color: #ff0000;
+    text-decoration: none;
+}
